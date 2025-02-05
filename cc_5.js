@@ -46,3 +46,9 @@ let inventory = [8, 0, 6, 1, 12]
 let Filter = inventory.filter(inventory => inventory > 0)
 
 console.log("Filtered Array:", Filter);
+
+//Task 6 - Reduce Method
+let sales = [500,300,200,400] //Original Array
+let total = sales.reduce((sum, sales) => sum + sales, 0); //Adding all the numbers in the array
+console.log("Total Sales:",total);
+

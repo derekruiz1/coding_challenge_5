@@ -56,3 +56,9 @@ console.log("Total Sales:",total);
 let customers = ["Alice", "Bob", "Charlie", "David"] //Original Array
 let user = customers.find(customers => customers === "Charlie"); //Finds Charlie in the Array
 console.log("Customer:", user);
+
+//Task 8 - Function Declaration 
+function calculateTax(amount,taxRate) {
+  return (amount * taxRate);
+}; //Function to calculate tax by multiplying the amount and the tax rate
+console.log("Tax:",calculateTax(100,0.07));

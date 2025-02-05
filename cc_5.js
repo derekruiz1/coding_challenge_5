@@ -34,3 +34,9 @@ cartItems.unshift("Candle"); //Adds Candle to array
 cartItems.shift()//Removes first item from array
 
 console.log(cartItems);
+
+//Task 4 - Map Method
+let prices = [100,200,300] //Original Array 
+let discounted = prices.map (prices => prices *= 0.9) //Gives 10% Discount to each item
+
+console.log("Discounted Prices:", discounted);

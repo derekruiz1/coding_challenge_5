@@ -23,3 +23,14 @@ const order = {
 }; //Object Information, Displays Order ID, Total Amount, Order Status
 
 order.displayOrder();
+
+//Task 3 - Array Manipulation
+let cartItems = ["Pillow", "Blanket", "Charger"] //Original Array
+
+cartItems.push("Straws"); //Adds Straws to the array
+cartItems.pop(); //Removes last item from array
+
+cartItems.unshift("Candle"); //Adds Candle to array
+cartItems.shift()//Removes first item from array
+
+console.log(cartItems);

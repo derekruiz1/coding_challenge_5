@@ -40,3 +40,9 @@ let prices = [100,200,300] //Original Array
 let discounted = prices.map (prices => prices *= 0.9) //Gives 10% Discount to each item
 
 console.log("Discounted Prices:", discounted);
+
+//Task 5 - Filter Method
+let inventory = [8, 0, 6, 1, 12]
+let Filter = inventory.filter(inventory => inventory > 0)
+
+console.log("Filtered Array:", Filter);

@@ -52,3 +52,7 @@ let sales = [500,300,200,400] //Original Array
 let total = sales.reduce((sum, sales) => sum + sales, 0); //Adding all the numbers in the array
 console.log("Total Sales:",total);
 
+//Task 7 - find() Method
+let customers = ["Alice", "Bob", "Charlie", "David"] //Original Array
+let user = customers.find(customers => customers === "Charlie"); //Finds Charlie in the Array
+console.log("Customer:", user);

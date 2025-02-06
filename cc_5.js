@@ -62,3 +62,10 @@ function calculateTax(amount,taxRate) {
   return (amount * taxRate);
 }; //Function to calculate tax by multiplying the amount and the tax rate
 console.log("Tax:",calculateTax(100,0.07));
+
+//Task 9 - Function Expression
+function applyDiscount(price,discount) {
+    price *= (1 - discount)
+    console.log("Discounted Price:",price);
+}; //Multiples price by discount and showing discounted price
+applyDiscount(100,0.07);

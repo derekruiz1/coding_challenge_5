@@ -69,3 +69,7 @@ function applyDiscount(price,discount) {
     console.log("Discounted Price:",price);
 }; //Multiples price by discount and showing discounted price
 applyDiscount(100,0.07);
+
+//Task 10 - Arrow Function
+const calculatePoints = purchaseAmount => `Points Earned: ${purchaseAmount / 10}` //Calculating points, for every $10 = 1 point
+console.log(calculatePoints(100));
